@@ -1,0 +1,83 @@
+// base-text
+.description {
+	h2 {
+		font-size: $font-size-base-title;
+		font-weight: 700;
+
+		margin-top: 90px;
+	}
+
+	h3 {
+		font-size: $font-size-title;
+		font-weight: 600;
+	}
+}
+
+
+// position
+.column-left {
+	float: left;
+}
+
+.column-right {
+	float: right;
+}
+
+.column-left,
+.column-right {
+ 	padding-bottom: 50px;
+}
+
+.column-left h3, p {
+	text-align: right;
+}
+
+.column-right h3 {
+	text-align: left;
+}
+
+.item {
+	text-align: left;
+}
+
+.description p {
+	font-family: $font-family-paragraph;
+	font-size: $font-size-paragraph;
+	color: $paragraph-color;
+}
+
+.description
+.text-column {
+	font-family: $font-family-title;
+	font-size: $font-size-one-line-paragraph;
+
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.bottom-item {
+	padding-bottom: 100px;
+}
+
+
+@media (max-width: 992px) {
+	.description {
+		h2 {
+			margin-top: 30px;
+		}
+		h3, p {
+		text-align: center;
+		}
+	}
+	.description	
+	.text-column {
+		margin-bottom: 15px;
+	}
+
+	.item {
+		text-align: center;
+	}
+	.bottom-item {
+	padding-bottom: 15px;
+	}
+}

@@ -1,0 +1,30 @@
+// COLORS
+$color: #fff;
+$base-color: #000;
+$paragraph-color: #777;
+$opacity: 0.8;
+
+// FONTS
+$font-family-base: 'Montserrat', sans-serif;
+$font-family-title: 'Droid Serif', serif;
+$font-family-paragraph: 'Roboto Slab', serif;
+
+$font-size-base: 75px;
+$font-size-base-title: 40px;
+$font-size-title: 18px;
+$font-size-one-line-paragraph: 16px;
+$font-size-paragraph: 14px;
+$line-height-base: 1.5;
+
+// COLORS
+$body-bg: #fff;
+$portfolio-bg-color: #f7f7f7;
+$team-bg-color: #f9f9f9;
+$button-bg-color: #fed136;
+
+
+@media (min-width: 1200px) {
+  .container {
+    width: 940px;
+  }
+}

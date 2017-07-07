@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    text-align: center;
+
+    background-color: $body-bg;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-family: $font-family-base;
+    line-height: $line-height-base;
+    color: $base-color;
+}

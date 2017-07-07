@@ -1,0 +1,91 @@
+/*background*/
+.jumbotron {
+	text-align: center;
+    color: $color;
+
+	background-image: url(images/Golden-Top.jpg);
+	background-repeat: no-repeat;
+}
+
+/*logo*/
+.logo {
+	float: left;
+}
+
+/*navigation*/
+.nav {
+	float: right;
+
+	ul {
+		font-family: $font-family-base;
+	}
+
+	a {
+		text-decoration: none;
+
+		font-size: $font-size-paragraph;
+		color: $color;
+		opacity: $opacity;
+	}
+
+	li {
+	 	display: inline-block;
+
+	 	padding: 0px 20px;
+	}
+}
+
+.nav a:hover {
+ 	color: #fed136;
+ }
+
+
+/*main-text and button*/
+.main-text {
+	h2 {
+		font-size: $font-size-base-title;
+		font-family: $font-family-title;
+		opacity: $opacity;
+
+		padding-top: 220px;
+	}
+
+	h1 {
+		font-size: $font-size-base;
+		font-weight: 700;
+
+		padding-bottom: 40px;
+	}
+
+
+	button {
+		padding: 22px 65px;
+
+		border-radius: 3px;
+		border: none;
+		outline: none;
+
+		font-size: $font-size-title;
+		font-weight: 600;
+		
+		margin-bottom: 35px;
+		background-color: $button-bg-color;
+	}
+}
+
+@media (max-width: 992px) {
+	.jumbotron {
+		padding-bottom: 0;
+	}
+	.logo {
+		padding-left: 15px;
+	}
+	.nav {
+		display: flex;
+		flex-direction: column;
+		margin-right: 25%;
+	}
+	.main-text h1 {
+	font-size: $font-size-base-title;
+  }
+}
